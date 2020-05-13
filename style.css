@@ -1,5 +1,6 @@
 html {
   text-align: center;
+  text-shadow: 1px 1px #000000
 }
 
 body {
@@ -19,14 +20,14 @@ h1 {
   height: 80px;
   background-position: center;
   padding-top: 17px;
-  text-shadow: 1px 1px #000000;
+
 }
 
 .BIO {
   opacity: 70%;
   position: absolute;
   left: 460px;
-  top: 150px;
+  top: 350px;
 }
 
 .CON {
@@ -43,19 +44,20 @@ h1 {
   font-size: 18px;
   position: absolute;
   left: 530px;
-  top: 200px;
+  top: 400px;
+
 }
 
 .w3-card-4 {
-  color: #000000;
+  color: #ffffff;
   font-family: 'Bangers', cursive;
   font-size: 26px;
   width: 20%;
   background-image: linear-gradient(#bfbfbf, #66ccff, #bfbfbf);
   border-radius: 25px;
   position: absolute;
-  left: 1500px;
-  top: 150px
+  left: 1485px;
+  top: 150px;
 }
 
 .H {
@@ -65,13 +67,13 @@ h1 {
 a:link {
   color: #ffffff;
 }
-
+a:visited{color:#ffffff}
 a:hover {
   color: #cc33ff;
 }
 
 a:active {
-  color: #e6ffff;
+  color: #ffffff;
 }
 
 .nav-link {
@@ -82,7 +84,7 @@ a:active {
 .nav {
   font-size: 32px;
   text-align: center;
-  text-shadow: 1px 1px #000000;
+
 }
 
 footer {
