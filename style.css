@@ -70,7 +70,11 @@ pre {
 }
 
 .H {
-  font-family: 'Bangers', cursive
+  font-family: 'Bangers', cursive;
+  position: absolute;
+  font-size: 46px;
+  left: 880px;
+  top: 250px;
 }
 
 .SEC {
@@ -89,7 +93,7 @@ pre {
   position: absolute;
   left: 200px;
   top: 300px;
-  width: 80%; 
+  width: 80%;
   border-radius: 25px;
 }
 
