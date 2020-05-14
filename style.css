@@ -1,6 +1,6 @@
 html {
   text-align: center;
-  text-shadow: 1px 1px #000000
+  text-shadow: 1px 1px #000000;
 }
 
 body {
@@ -8,7 +8,9 @@ body {
   text-align: center;
   max-width: 99.9%;
   margin: auto;
+  font-family: 'Inconsolata', monospace;
   color: #ffffff;
+  font-size: 18px;
 }
 
 h1 {
@@ -20,7 +22,6 @@ h1 {
   height: 80px;
   background-position: center;
   padding-top: 17px;
-
 }
 
 .BIO {
@@ -35,21 +36,29 @@ h1 {
 }
 
 .ASPp {
-  opacity: 80%
+  background-image: url("ASP.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1100px 100%;
+  left: 700px;
+  top: 350px;
+  opacity: 93%;
+}
+
+pre {
+  color: #ffffff;
+  font-size: 19px;
 }
 
 .main {
   font-family: 'Inconsolata', monospace;
-  color: #ffffff;
   font-size: 18px;
   position: absolute;
-  left: 530px;
+  left: 500px;
   top: 400px;
-
 }
 
 .w3-card-4 {
-  color: #ffffff;
   font-family: 'Bangers', cursive;
   font-size: 26px;
   width: 20%;
@@ -64,10 +73,34 @@ h1 {
   font-family: 'Bangers', cursive
 }
 
+.SEC {
+  text-align: center;
+  position: inherit;
+  color: #ffffff;
+}
+
+.card {
+  background-color: transparent;
+  top: 190px;
+}
+
+.table {
+  opacity: 70%;
+  position: absolute;
+  left: 200px;
+  top: 300px;
+  width: 80%;
+  border-radius: 25px;
+}
+
 a:link {
   color: #ffffff;
 }
-a:visited{color:#ffffff}
+
+a:visited {
+  color: #ffffff
+}
+
 a:hover {
   color: #cc33ff;
 }
@@ -84,7 +117,6 @@ a:active {
 .nav {
   font-size: 32px;
   text-align: center;
-
 }
 
 footer {
